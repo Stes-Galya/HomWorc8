@@ -1,0 +1,84 @@
+div > h3 {
+    color: deeppink;
+} 
+
+#greycol{
+    color: gray;
+}
+div > div > p{
+    color: red;
+}
+ div + h3 + p{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+td {outline: solid;
+
+}
+
+.title{
+    color: rgb(139, 214, 189);
+}
+tr:nth-child(-n+1){
+    color: blueviolet;
+}
+tr:nth-child(n+3){
+    color: rgb(200, 92, 193);
+}
+tr:nth-child(n+4){
+    color: rgb(181, 135, 250);
+}
+tr:nth-child(2){
+    color: rgb(237, 100, 232);
+}
+tr:nth-child(n+5){
+    color: rgb(110, 7, 255);
+}
+.lang{
+    display: flex;
+     gap: 10px;
+list-style: none;
+margin: 0;
+ padding: 0;
+}
+.lang:hover{
+   color: palevioletred;
+   font-size: 20px;
+   text-shadow: 5px 7px 10px rgb(149, 32, 32);
+}
+
+.title:hover{
+    color: rgb(44, 189, 97);
+    font-size: 20px;
+    text-shadow: 5px 7px 10px rgb(26, 155, 234);
+}
+
+.pink:hover{
+    color: rgb(189, 44, 148);
+    font-size: 20px;
+    text-shadow: 5px 7px 10px rgb(26, 196, 234);
+}
+
+.red:hover{
+    color: rgb(255, 0, 212);
+    font-size: 20px;
+    text-shadow: 5px 7px 10px rgb(115, 0, 255);
+}
+
+.perpyl:hover{
+    color: rgb(110, 7, 255);
+    font-size: 20px;
+    text-shadow: 5px 7px 10px rgb(255, 0, 157);
+}
+
+
+
+
+
+
+
+
+
+
